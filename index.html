@@ -49,21 +49,21 @@
 					<h3 id="myModalLabel">Happiness is...</h3>
 
 				  <div class="modal-body">
-					<textarea id="textarea"></textarea><br/><br/>
-					<form id="chinab_submit_form" action="backend/chinab.php" method="post">
+				    <form id="chinab_submit_form" action="backend/submit.php" method="post">
+					<textarea id="textarea" name="chinab_textarea"></textarea><br/><br/>
 					<div class="adding">
 					<label id="lab1" for="1" style="width:40px;height:40px;background-color:#1ABC9C;float:left;"></label>
-					<input type="radio" id="1" name="colour" style="display:none;">
+					<input type="radio" id="1" name="colour" style="display:none;" value="#1ABC9C">
 					<label id="lab2" for="2" style="width:40px;height:40px;background-color:#2ECC71;float:left;"></label>
-					<input type="radio" id="2" name="colour" style="display:none;">
+					<input type="radio" id="2" name="colour" style="display:none;" value="#2ECC71">
 					<label id="lab3" for="3" style="width:40px;height:40px;background-color:#3498DB;float:left;"></label>
-					<input type="radio" id="3" name="colour" style="display:none;">
+					<input type="radio" id="3" name="colour" style="display:none;" value="#3498DB">
 					<label id="lab4" for="4" style="width:40px;height:40px;background-color:#9B59B6;float:left;"></label>
-					<input type="radio" id="4" name="colour" style="display:none;">
+					<input type="radio" id="4" name="colour" style="display:none;" value="#9B59B6">
 					<label id="lab5" for="5" style="width:40px;height:40px;background-color:#E67E22;float:left;"></label>
-					<input type="radio" id="5" name="colour" style="display:none;">
+					<input type="radio" id="5" name="colour" style="display:none;" value="#E67E22">
 					<label id="lab6" for="6" style="width:40px;height:40px;background-color:#E74C3C;float:left;"></label>
-					<input type="radio" id="6" name="colour" style="display:none;">	
+					<input type="radio" id="6" name="colour" style="display:none;" value="#E74C3C">	
 					</div>
 				  </div>
 				  <div class="modal-foot">
@@ -73,11 +73,16 @@
 				</div>
 			</div>
 			<!-- Modal -->
+			<div id="chinab">
 			<div class="pin">
 				<h3>Leggings pour-over banksy, DIY wolf tattooed ... </h3>
 			</div>
 			<div class="pin">
 				<h3>Put a bird on it viral wolf, 3 wolf moon ... </h3>
+			</div>
+			<div class="pin">
+				<h3>Put a bird on it viral wolf, 3 wolf moon ... </h3>
+			</div>
 			</div>
 			<!-- and so on ...  -->
 		</div>
